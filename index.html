@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
@@ -6,29 +7,24 @@
 <title>माँ लक्ष्मी घर की रसोई</title>
 </head>
 <body style="font-family:sans-serif;background:#fff8f0;padding:20px">
-
 <h1>🍽️ माँ लक्ष्मी घर की रसोई</h1>
 <p>घर का स्वाद, आपके घर तक ❤️</p>
 
-<h2>आज का खाना</h2>
+<h3>सब्ज़ी-रोटी ₹59</h3>
+<h3>बर्गर ₹100</h3>
+<h3>पोहा ₹29</h3>
 
-<div style="border:1px solid #ddd;padding:12px;border-radius:10px;margin:10px 0">
-  <h3>🥘 सब्ज़ी-रोटी</h3>
-  <p>₹59</p>
-  <button>ऑर्डर करें</button>
-</div>
+<input id="name" placeholder="नाम"><br><br>
+<input id="phone" placeholder="मोबाइल"><br><br>
+<textarea id="addr" placeholder="पता"></textarea><br><br>
 
-<div style="border:1px solid #ddd;padding:12px;border-radius:10px;margin:10px 0">
-  <h3>🍔 बर्गर</h3>
-  <p>₹100</p>
-  <button>ऑर्डर करें</button>
-</div>
+<button onclick="order()">ऑर्डर करें</button>
 
-<div style="border:1px solid #ddd;padding:12px;border-radius:10px;margin:10px 0">
-  <h3>🥣 पोहा</h3>
-  <p>₹29</p>
-  <button>ऑर्डर करें</button>
-</div>
-
+<script>
+function order(){
+let m=`नाम: ${name.value}%0Aमोबाइल: ${phone.value}%0Aपता: ${addr.value}`;
+window.open("https://wa.me/91XXXXXXXXXX?text="+m);
+}
+</script>
 </body>
 </html>
