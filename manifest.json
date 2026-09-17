@@ -1,0 +1,38 @@
+{
+  "background_color": "rgb(255, 255, 255)",
+  "description": "Join the era of vibe coding — where you just tell the AI your idea and get a complete app. CodeFlying enables full-stack app creation via chat in minutes",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "www.codeflying",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "लक्ष्मी रसोई",
+  "start_url": "/",
+  "theme_color": "hsl(0, 0%, 100%)",
+  "icons": [
+    {
+      "src": "https://www.codeflying.in/favicon.ico",
+      "type": "image/x-icon",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    },
+    {
+      "src": "https://www.codeflying.in/favicon.ico",
+      "type": "image/x-icon",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ]
+}
